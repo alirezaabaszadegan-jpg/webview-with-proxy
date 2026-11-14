@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">بیمه ایران</string>
+    <string name="login_title">ورود به سامانه</string>
+    <string name="proxy_host">آدرس سرور پروکسی</string>
+    <string name="proxy_port">پورت</string>
+    <string name="username">نام کاربری</string>
+    <string name="password">رمز عبور</string>
+    <string name="login">اتصال</string>
+    <string name="save_cred">ذخیره نام کاربری و رمز</string>
+    <string name="conn_settings">⚙ تنظیمات اتصال</string>
+    <string name="logout">خروج</string>
+    <string name="reload">بارگذاری مجدد</string>
+</resources>

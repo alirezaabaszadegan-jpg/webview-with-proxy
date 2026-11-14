@@ -1,0 +1,18 @@
+plugins { id 'com.android.application'; id 'org.jetbrains.kotlin.android' }
+android {
+    namespace 'ir.bimeh.web'
+    compileSdk 34
+    defaultConfig {
+        applicationId "ir.bimeh.web"
+        minSdk 24
+        targetSdk 34
+        versionCode 501
+        versionName "5.01"
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+    kotlinOptions { jvmTarget = '17' }
+}
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'androidx.webkit:webkit:1.11.0'
+}
